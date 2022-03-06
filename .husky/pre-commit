@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 暂时先注释
+# npx pretty-quick --staged --pattern '!test/tests/lint/**' && yarn lint && yarn deduplicate:check && doctoc README.md
